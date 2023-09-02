@@ -21,5 +21,5 @@
 # O Codigo comentado acima so será necessário se esse modulos for usar um provider diferente do main
 
 resource "aws_s3_bucket" "welbucket" {
-	bucket = var.bucket
+  bucket = var.bucket
 }
